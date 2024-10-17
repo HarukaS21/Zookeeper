@@ -1,0 +1,20 @@
+
+import java.util.Random;
+public class MyClass {
+  public static void main(String args[]) {
+    String animalType = "Penguin";
+    String time = "2:27 PM";
+    double habitatTemp = 65.55;
+    
+    System.out.println("Animal type: " + animalType);
+    System.out.println("Current Time: " + time);
+    System.out.printf("Habitat Temperature: " + Random+"F");
+       double start = 50.00;
+    double end = 100.00;
+    Random r = new Random ();
+    double randomValue = ((Random * (end - start)));
+    double random = new Random().nextDouble();
+    
+ 
+  }
+}
